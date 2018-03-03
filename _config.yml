@@ -15,7 +15,7 @@ name                     : "Todd Riffel"
 description              : "Todd Riffel's life/tech blog"
 url                      : "https://toddriffel.com"
 baseurl                  : 
-theme                    : minimal-mistakes-jekyll
+theme                    : minimal
 repository               : 
 teaser                   : 
 # breadcrumbs            : false # true, false (default)
@@ -92,8 +92,8 @@ analytics:
 # Site Author
 author:
   name             : Todd Riffel
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Embedded software engineer, musician, and explorer"
+  avatar           : /images/bio-photo.jpg
+  bio              : "Embedded software engineer, musician, explorer, and crypto enthusiast"
   location         : "Austin, TX"
   email            :
   uri              :
