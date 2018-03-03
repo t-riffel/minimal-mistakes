@@ -9,5 +9,5 @@ main:
       url: # /about/
     - title: "Projects"
       url: # /projects/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+    - title: "Resume"
+      url: # /sitemap/
