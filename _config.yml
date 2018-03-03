@@ -15,6 +15,7 @@ name                     : "Todd Riffel"
 description              : "Todd Riffel's life/tech blog"
 url                      : "https://toddriffel.com"
 baseurl                  : 
+theme                    : minimal-mistakes-jekyll
 repository               : 
 teaser                   : 
 # breadcrumbs            : false # true, false (default)
