@@ -1,8 +1,13 @@
 ---
-layout: post
 title:  "First Post"
-date:   2018-03-11 15:38:00 -0600
-categories: none
+layout: single
+author_profile: true
+read_time: true
+comments: false
+share: true
+sidebar:
 ---
 
 Here's some test text
+
+
