@@ -19,6 +19,19 @@ repository               :
 teaser                   : 
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
+collections:
+    posts:
+        title: Posts
+        output: true
+    uploads:
+        title: Uploads
+        output: true
+    files:
+        output: true
+        permalink: /:collection/:path:output_ext
+    ymls:
+        output: true
+        permalink: /files/:path.yml
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
   disqus:
@@ -96,7 +109,7 @@ author:
   location         : "Austin, TX"
   email            :
   uri              :
-  home             : # null (default), "absolute or relative url to link to author home"
+  home             : /
   bitbucket        :
   codepen          :
   dribbble         :
@@ -199,6 +212,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jemoji
+  - jekyll-responsive-image
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -207,6 +221,7 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jemoji
+  - jekyll-responsive-image
 
 
 # Archives
@@ -248,7 +263,6 @@ compress_html:
 
 # Defaults
 defaults:
-  # _posts
   - scope:
       path: ""
       type: posts
@@ -256,7 +270,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: false
       share: true
       related: true
       sidebar:
