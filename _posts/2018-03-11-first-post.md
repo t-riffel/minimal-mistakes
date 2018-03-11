@@ -5,7 +5,7 @@ author_profile: true
 read_time: true
 comments: false
 share: true
-sidebar:
+sidebar: nav, main
 ---
 
 Here's some test text
