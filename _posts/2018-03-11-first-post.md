@@ -6,8 +6,7 @@ read_time: true
 comments: false
 share: true
 sidebar:
-    nav:
-    main:
+    nav: main
 ---
 
 Here's some test text
