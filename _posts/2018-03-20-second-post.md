@@ -1,5 +1,5 @@
 ---
-title:  "First Post"
+title:  "Second Post"
 layout: single
 author_profile: true
 read_time: true
@@ -8,5 +8,3 @@ share: true
 ---
 
 Here's some test text
-
-
