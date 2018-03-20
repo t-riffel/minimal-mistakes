@@ -10,7 +10,7 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 # Site Settings
 locale                   : "en-US"
 title                    : "Stuff"
-title_separator          : "-"
+title_separator          : "|"
 name                     : "Todd Riffel"
 description              : "Todd Riffel's life/tech blog"
 url                      : "http://toddriffel.com"
@@ -273,13 +273,13 @@ defaults:
       comments: false
       share: true
       related: true
-      sidebar:
-        nav: "main"
+      #sidebar:
+       #nav: "main"
   - scope:
       path: ''
       type: pages
     values:
       layout: single
       author_profile: true
-      sidebar:
-        nav: "main"
+      #sidebar:
+        #nav: "main"
